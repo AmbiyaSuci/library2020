@@ -18,7 +18,7 @@ class ListBooks extends Component {
     // isi disini
     this.setState({isLoading: true}, () =>
     axios
-    .get("https://calm-dusk-11524.herokuapp.com/library")
+    .get("https://shrouded-bastion-80220.herokuapp.com/library")
     .then(res =>{
       console.log(res);
       context.setState({
